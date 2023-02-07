@@ -1,6 +1,3 @@
-﻿/*Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, 
-и возвращает значение этого элемента или же указание, что такого элемента нет.*/
-
 System.Console.WriteLine("Enter the number of rows");
 int a = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Enter the number of columns");
@@ -14,7 +11,7 @@ if (a > numbers.GetLength(0) || b > numbers.GetLength (1))
 } 
 else 
 {
-    System.Console.WriteLine($" the value of the {a} row and {b} column element is {numbers[a-1,b-1]}");
+    System.Console.WriteLine($" the value of the {n} row and {m} column element is {numbers[n-1,m-1]}");
 
 }
 PrintArray(numbers);
